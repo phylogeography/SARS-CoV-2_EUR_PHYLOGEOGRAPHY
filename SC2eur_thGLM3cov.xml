@@ -44086,7 +44086,7 @@
 			<parameter idref="treeModel.rootHeight"/>
 			<tmrcaStatistic idref="age(root)"/>
 			<treeLengthStatistic idref="treeLength"/>
-           <parameter idref="skygrid.coefficients"/>
+            <parameter idref="skygrid.coefficients"/>
 			<parameter idref="kappa"/>
 			<parameter idref="alpha"/>
 			<parameter idref="default.clock.rate"/>
@@ -44106,12 +44106,6 @@
 			<treeDataLikelihood idref="default2.treeLikelihood"/>
 			<strictClockBranchRates idref="default.branchRates"/>
 			<strictClockBranchRates idref="country.branchRates"/>
-
-			<!-- START Discrete Traits Model                                             -->
-			<markovJumpsTreeLikelihood idref="country.treeLikelihood"/>
-
-			<!-- END Discrete Traits Model                                               -->
-
 			<gmrfSkyrideLikelihood idref="skygrid"/>
 
 		</log>
